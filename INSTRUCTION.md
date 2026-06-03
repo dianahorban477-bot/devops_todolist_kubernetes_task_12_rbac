@@ -26,7 +26,7 @@ Make sure the spec.template.spec section of the deployment.yaml file specifies t
 kubectl apply -f deployment.yaml
 ```
 
-5. Checking Permissions and Access Validation (Testing)
+5. Checking Permissions and Access Validation 
 
 To confirm that the created ServiceAccount has successfully gained read access to secrets, connect interactively to the pod and send a request to the Kubernetes API server:
 ```bash
